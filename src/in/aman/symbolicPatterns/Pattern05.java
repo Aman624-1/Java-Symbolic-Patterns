@@ -2,7 +2,7 @@ package in.aman.symbolicPatterns;
 
 import java.util.Scanner;
 
-public class Pattern5 
+public class Pattern05 
 {
 	
 	public static void main(String[] args) 

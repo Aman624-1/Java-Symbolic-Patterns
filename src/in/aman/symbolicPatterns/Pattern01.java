@@ -2,32 +2,28 @@ package in.aman.symbolicPatterns;
 
 import java.util.Scanner;
 
-public class Pattern3 
+public class Pattern01 
 {
 	
 	public static void main(String[] args) 
 	{
 		
 		Scanner sc = new Scanner(System.in);
-		
+		System.out.print("Enter the number of columns: ");
+		int col = sc.nextInt();
 		System.out.print("Enter the number of rows: ");
 		int row = sc.nextInt();
-		System.out.print("Enter the number of columns: ");
-		int cols = sc.nextInt();
 		
-		for(int i=0; i<row; i++)
+		for(int i=0; i<col; i++)
 		{
-			for(int j=0; j<cols; j++)
+			for(int j=0; j<row; j++)
 			{
-				if(i==j||i<j)
-					System.out.print("* ");
-				else
-					System.out.print("  ");
+				System.out.print("* ");
+				
 			}
 			System.out.println();
 		}
 		sc.close();
-		
 	}
-
+	
 }
